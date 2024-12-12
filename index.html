@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fredohcodecamp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="all">
+      <div class="header">
+    <h1 id="title">Fredohcodecamp Survey Form</h1>
+    <p id="description">In Fredocode,A cilent that takes survey remains the KING,by improving our platform.</p>
+      </div>
+    <form id="survey-form">
+      <label for="name" id="name-label">NAME:</label> <br> <input class="enter" id="name" type="text" placeholder
+      ="Enter your name" required/><br>
+      <label for="email" id="email-label">EMAIL:</label><br><input class="enter" id="email"type="email" placeholder="Enter your email" required /><br>
+      <label for="number" id="number-label">AGE:(Optional)</label><br> <input class="enter" id="number" type="number" min="8" max="15" placeholder="18 years"/><br>
+      
+     <label class="text">Which option best describes your current role? <br> <select  id="dropdown" >
+         <option>Select current stage</option>
+         <option>Full time job</option>
+         <option>full time learner</option>
+          <option>Prefer not to say </option>
+           <option>others</option>
+       </select></label><br>
+       <label class="text">Can you recommend FREDocode to your friend or any person.<br>
+     <label class="radpar"><input type="radio" class="radput" name="text" value="for sure"/>for sure</label><br>
+      <label class="radpar"><input type="radio"  class="radput" name="text"value="may be"/> may be</label><br>
+      <label class="radpar"> <input type="radio" class="radput" name='text' value="not sure"/> not sure </label><br>
+       </label>
+       <p class="text">What is your favorite feature of fredocode?<br> </p>
+       <select id="select">
+        
+           <option>select an option</option>
+            <option>challenges</option>
+             <option>projects</option> 
+             <option>community</option>
+               <option>open source</option>
+       </select>
+       
+       <br>
+       
+       <label class="text">in which area would like us to in improve?(all branches) <br>
+         <div class="bird">
+          <p class="par"> Frontend</p><input type="checkbox" class="put" value="frontened"/>
+         </div>
+           <div class="bird">
+            <p class="par"> Backend</p><input type="checkbox" class="put" value="backened"/>
+           </div>
+             <div class="bird">
+              <p class="par">Data analysis</p><input type="checkbox" class="put" value="data analysis"/>
+             </div>
+               <div class="bird">
+                <p class="par">Python</p><input type="checkbox" class="put" value="python"/>
+               </div>
+                 <div class="bird">
+                  <p class="par"> Dagital market</p><input type="checkbox" class="put" value="dagital market"/>
+                 </div>
+                   <div class="bird">
+                    <p class="par"> ux/iu</p><input type="checkbox"  class="put"value="ux/iu"/>
+                   </div>
+                     <div class="bird">
+                      <p class="par">App development</p><input class="pul" type="checkbox" value="app dev"/>
+                     </div>
+        </label>
+       
+       <p id="anyp">Any comments or suggestions?</p>
+       <textarea id="massagetext" placeholder="Enter your suggestions"></textarea><br>
+       <button id="submit" type="submit">submit</button>
+    </form>
+  
+      </main>
+    
+     
+</body>
+</html>

@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  .all{
+    
+    border: none;
+    border-radius: 0.5px;
+    width: 100%;
+    background-color: rgb(109, 132, 182);
+    margin: 0 auto;
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+  }
+
+  .header{
+  position: relative;
+  text-align: center;
+  }
+
+  #title{
+ color: white;
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+  #description{
+   color: white;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  #survey-form{
+    width: 50%;
+   background-color: black;
+   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-around;
+  color: white;
+  }
+
+  #name-label,
+  #email-label,
+  #number-label{
+    font-size: 30px;
+    font-weight: 500;
+    border: none;
+   
+    padding-left: 1%;
+    
+  }
+  
+  .enter{
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    margin-right: 2%;
+    padding: 5px;
+    text-indent: 10px;
+    outline: none;    
+  }
+  .text{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+ #dropdown , #select{
+
+  font-size: 20px;
+    font-weight: 300;
+    border: none;
+    border-radius: 5px;
+    margin-right: 2%;
+    outline: none;
+}
+  #submit{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  .par{
+    width: 90%;
+    font-size: 20px;
+    font-weight: 500;
+    /* border: 1px solid; */
+  }
+  .put{
+   
+    color: white;
+    cursor: pointer;
+  }
+  .bird{
+    height: 40px;
+    width: 180px;
+    /* border: 1px solid; */
+    display: flex;
+    flex-flow: row-reverse;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  .radpar{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+   
+   
+    margin-right: 2%;
+    padding: 10px 20px;
+   
+    color: white;
+    cursor: pointer;
+  }
+
+#anyp{
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+  .radput{
+    margin-top: 10px;
+    
+    margin-right: 2%;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+  }
+
+  #massagetext{
+    height: 180px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 30px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    text-indent: 15px;
+    outline: none;
+  }
